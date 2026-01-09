@@ -1,0 +1,239 @@
+{% extends "base.html" %}
+{% set active_page = 'about' %}
+
+{% block content %}
+<div class="pt-6 pb-20 min-h-screen">
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center mb-16 reveal">
+            <div class="inline-flex items-center gap-3 px-5 py-2 rounded-2xl glass-card mb-8">
+                <svg class="w-4 h-4 text-cyan-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.628.283a2 2 0 01-1.186.13l-2.183-.364a4 4 0 00-3.601 1.055l-2.021 2.021A2 2 0 004.828 21h14.343a2 2 0 001.272-3.571l-1.015-1.001z" />
+                </svg>
+                <span class="text-xs font-extrabold uppercase tracking-[0.2em] text-slate-400">
+                    About this project
+                </span>
+            </div>
+            <h1 class="text-5xl md:text-7xl font-black tracking-tighter mb-6 text-white leading-tight">
+                Why <span
+                    class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-indigo-600">Paham.in?</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed font-medium">
+                Paham.in merupakan wujud implementasi riset yang berfokus pada integrasi antara Psikologi Kognitif dan
+                Kecerdasan Buatan (Artificial Intelligence) guna menciptakan sistem personalisasi pembelajaran yang
+                adaptif, efektif, dan relevan dengan kebutuhan pendidikan di masa depan.
+            </p>
+        </div>
+
+        <div class="flex justify-center mb-24 reveal">
+            <div class="relative group max-w-sm w-full">
+                <div
+                    class="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-indigo-600 rounded-[2.5rem] blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200">
+                </div>
+                <div class="relative glass-card p-10 rounded-[2.5rem] text-center border-white/10 shadow-2xl">
+                    <div class="relative w-44 h-44 mx-auto mb-10">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-br from-cyan-500 to-indigo-500 rounded-3xl rotate-6 opacity-20 group-hover:rotate-12 transition-transform duration-500">
+                        </div>
+                        <img src="{{ url_for('static', filename='img/sena.jpg') }}" alt="Adi Kurnia Sena"
+                            class="relative w-full h-full object-cover rounded-3xl border border-white/20 shadow-xl transition-all duration-500 group-hover:scale-[1.02]">
+                        <div
+                            class="absolute -bottom-4 -right-4 w-12 h-12 bg-slate-900 rounded-2xl flex items-center justify-center shadow-xl border border-white/10 text-cyan-500">
+                            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <h2 class="text-xs font-black text-cyan-500 uppercase tracking-[0.4em] mb-3 text-center">Developer &
+                        Researcher</h2>
+                    <h3 class="text-3xl font-bold text-white mb-2 tracking-tight text-center">Adi Kurnia Sena</h3>
+                    <p class="text-indigo-500 text-sm font-mono font-bold tracking-widest mb-8 text-center">231011403757
+                    </p>
+                    <div class="pt-8 border-t border-white/5">
+                        <p class="text-slate-500 text-sm italic font-medium">"The world moves according to our mindset"
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-24 reveal">
+            <h3 class="text-2xl font-black text-white mb-10 tracking-tight flex items-center gap-4">
+                <span class="w-8 h-px bg-cyan-500"></span> Fundamental Sistem
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="glass-card p-8 rounded-3xl border-white/5 hover:bg-white/[0.05] transition-all">
+                    <div class="text-cyan-500 mb-6">
+                        <svg class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                        </svg>
+                    </div>
+                    <h4 class="text-white font-bold mb-3">AI Diagnostics</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">Menganalisis 20+ variabel kognitif untuk
+                        menentukan gaya belajar dominan secara presisi.</p>
+                </div>
+                <div class="glass-card p-8 rounded-3xl border-white/5 hover:bg-white/[0.05] transition-all">
+                    <div class="text-indigo-500 mb-6">
+                        <svg class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.628.283a2 2 0 01-1.186.13l-2.183-.364a4 4 0 00-3.601 1.055l-2.021 2.021A2 2 0 004.828 21h14.343a2 2 0 001.272-3.571l-1.015-1.001z" />
+                        </svg>
+                    </div>
+                    <h4 class="text-white font-bold mb-3">Psychology-Based</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">Implementasi teori VARK dan Certainty Factor untuk
+                        hasil yang divalidasi pakar.</p>
+                </div>
+                <div class="glass-card p-8 rounded-3xl border-white/5 hover:bg-white/[0.05] transition-all">
+                    <div class="text-purple-500 mb-6">
+                        <svg class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                        </svg>
+                    </div>
+                    <h4 class="text-white font-bold mb-3">Privacy First</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">Pemrosesan data anonim tanpa menyimpan informasi
+                        sensitif di database pusat.</p>
+                </div>
+                <div class="glass-card p-8 rounded-3xl border-white/5 hover:bg-white/[0.05] transition-all">
+                    <div class="text-emerald-500 mb-6">
+                        <svg class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                        </svg>
+                    </div>
+                    <h4 class="text-white font-bold mb-3">Actionable Path</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">Menghasilkan langkah strategis (Environment,
+                        Strategy, Processing) untuk siswa.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="glass-card p-8 md:p-16 rounded-[3rem] reveal overflow-hidden mb-24">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <div
+                        class="absolute -left-10 top-0 w-1 h-20 bg-gradient-to-b from-cyan-500 to-transparent rounded-full opacity-50">
+                    </div>
+                    <h3 class="text-3xl font-black text-white mb-8 tracking-tight">Filosofi Proyek</h3>
+                    <div class="space-y-6 text-slate-400 text-lg leading-relaxed">
+                        <p>
+                            Sistem ini dikembangkan sebagai kontribusi nyata bagi ekosistem pendidikan di <span
+                                class="text-white font-bold">Universitas Pamulang</span>. Berawal dari tantangan metode
+                            pengajaran konvensional yang bersifat general.
+                        </p>
+                        <p>
+                            Menggunakan arsitektur <span
+                                class="text-cyan-500 font-bold px-2 py-1 bg-cyan-500/5 rounded-lg border border-cyan-500/10">Forward
+                                Chaining</span> dan
+                            metodologi <span
+                                class="text-indigo-500 font-bold px-2 py-1 bg-indigo-500/5 rounded-lg border border-indigo-500/10">Certainty
+                                Factor</span>, sistem ini mensimulasikan kepakaran untuk memberikan diagnosis akurat.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-6">
+                    <div
+                        class="glass-card p-6 rounded-3xl border-white/10 hover:border-cyan-500/30 transition-colors group">
+                        <div
+                            class="w-10 h-10 rounded-xl bg-cyan-500/10 flex items-center justify-center mb-4 text-cyan-500">
+                            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                            </svg>
+                        </div>
+                        <p class="text-2xl font-black text-white mb-1">Unpam</p>
+                        <p class="text-[10px] text-slate-500 uppercase font-black tracking-widest">Research Base</p>
+                    </div>
+                    <div
+                        class="glass-card p-6 rounded-3xl border-white/10 hover:border-indigo-500/30 transition-colors group">
+                        <div
+                            class="w-10 h-10 rounded-xl bg-indigo-500/10 flex items-center justify-center mb-4 text-indigo-500">
+                            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                            </svg>
+                        </div>
+                        <p class="text-2xl font-black text-cyan-500 mb-1">v1.0</p>
+                        <p class="text-[10px] text-slate-500 uppercase font-black tracking-widest">Build Version</p>
+                    </div>
+                    <div
+                        class="glass-card p-8 rounded-3xl border-white/10 col-span-2 group flex justify-between items-center">
+                        <div class="text-left">
+                            <p class="text-xl font-bold text-white mb-1">Tangerang Selatan</p>
+                            <p class="text-[10px] text-slate-500 uppercase font-black tracking-widest">Headquarters</p>
+                        </div>
+                        <div class="text-slate-700">
+                            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-24 reveal">
+            <h3 class="text-2xl font-black text-white mb-10 tracking-tight flex items-center gap-4">
+                <span class="w-8 h-px bg-indigo-500"></span> Arsitektur Teknologi
+            </h3>
+            <div
+                class="flex flex-wrap justify-center gap-4 md:gap-8 opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
+                <div class="flex items-center gap-2 glass-card px-6 py-3 rounded-2xl border-white/5">
+                    <span class="text-white font-bold">Python</span>
+                </div>
+                <div class="flex items-center gap-2 glass-card px-6 py-3 rounded-2xl border-white/5">
+                    <span class="text-white font-bold">Flask</span>
+                </div>
+                <div class="flex items-center gap-2 glass-card px-6 py-3 rounded-2xl border-white/5">
+                    <span class="text-white font-bold">Tailwind CSS</span>
+                </div>
+                <div class="flex items-center gap-2 glass-card px-6 py-3 rounded-2xl border-white/5">
+                    <span class="text-white font-bold">Expert System Engine</span>
+                </div>
+                <div class="flex items-center gap-2 glass-card px-6 py-3 rounded-2xl border-white/5">
+                    <span class="text-white font-bold">Inference Chain</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="reveal">
+            <h3 class="text-2xl font-black text-white mb-10 tracking-tight flex items-center gap-4">
+                <span class="w-8 h-px bg-emerald-500"></span> Jejak Riset
+            </h3>
+            <div
+                class="space-y-6 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-700 before:to-transparent">
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div
+                        class="flex items-center justify-center w-10 h-10 rounded-full border border-white/10 bg-slate-900 text-cyan-500 shadow-xl shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                        <span class="w-2 h-2 rounded-full bg-cyan-500 animate-pulse"></span>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-3xl glass-card border-white/5">
+                        <div class="text-cyan-500 font-bold text-xs mb-1">FASE AWAL</div>
+                        <div class="text-white font-bold mb-2">Literatur & Pengumpulan Data</div>
+                        <p class="text-slate-400 text-sm leading-relaxed">Mempelajari model VARK dan Certainty Factor
+                            untuk diimplementasikan ke dalam program.</p>
+                    </div>
+                </div>
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div
+                        class="flex items-center justify-center w-10 h-10 rounded-full border border-white/10 bg-slate-900 text-indigo-500 shadow-xl shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                        <span class="w-2 h-2 rounded-full bg-indigo-500 animate-pulse"></span>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-3xl glass-card border-white/5">
+                        <div class="text-indigo-500 font-bold text-xs mb-1">FASE CODING</div>
+                        <div class="text-white font-bold mb-2">Pengembangan Engine & Logic</div>
+                        <p class="text-slate-400 text-sm leading-relaxed">Membangun mesin inferensi Forward Chaining
+                            menggunakan Python dan Flask Framework.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endblock %}

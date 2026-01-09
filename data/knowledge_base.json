@@ -1,0 +1,136 @@
+{
+  "experts": {
+    "pakar_1": {
+      "nama": "Dr. Munif Chatib, M.Pd.",
+      "bidang": "Psikologi Pendidikan; Multiple Intelligences dan Strategi Pembelajaran"
+    },
+    "pakar_2": {
+      "nama": "Prof. Dr. Hamzah B. Uno, M.Pd.",
+      "bidang": "Psikologi Pendidikan; Teori Belajar dan Motivasi Belajar"
+    },
+    "pakar_3": {
+      "nama": "Prof. Dr. Dimyati, M.Pd. & Dr. Mudjiono, M.Pd.",
+      "bidang": "Ilmu Pendidikan; Proses dan Strategi Belajar Mengajar"
+    },
+    "pakar_4": {
+      "nama": "Prof. Dr. Sugihartono, M.Pd.",
+      "bidang": "Psikologi Pendidikan; Perkembangan Peserta Didik dan Pembelajaran Aktif"
+    },
+    "pakar_5": {
+      "nama": "Daniel T. Willingham, Ph.D.",
+      "bidang": "Psikolog Kognitif; Peneliti Memori dan Pembelajaran"
+    }
+  },
+  "theories": {
+    "visual_learning": {
+      "expert_id": "pakar_1",
+      "kutipan": "Munif Chatib dalam bukunya \"Sekolahnya Manusia\" (2012) menjelaskan bahwa peserta didik dengan kecenderungan visual lebih mudah memahami informasi melalui gambar, warna, diagram, dan representasi visual yang konkret.",
+      "kesimpulan_penelitian": "Penelitian dan praktik pendidikan yang dikemukakan oleh Munif Chatib (2012) menunjukkan bahwa penggunaan media visual dapat meningkatkan pemahaman dan retensi belajar siswa.",
+      "instruksi_spesifik": [
+        "Menggunakan mind map dan peta konsep",
+        "Memberi warna pada catatan penting",
+        "Memanfaatkan gambar dan infografik"
+      ]
+    },
+    "auditory_learning": {
+      "expert_id": "pakar_2",
+      "kutipan": "Hamzah B. Uno (2016) menyatakan bahwa sebagian peserta didik lebih efektif belajar melalui penjelasan lisan, diskusi, dan interaksi verbal karena informasi diproses melalui pendengaran.",
+      "kesimpulan_penelitian": "Kesimpulan ini didukung oleh kajian Hamzah B. Uno (2016) mengenai perbedaan karakteristik belajar peserta didik dalam proses pembelajaran.",
+      "instruksi_spesifik": [
+        "Mengikuti diskusi kelas",
+        "Mendengarkan penjelasan guru secara aktif",
+        "Menjelaskan kembali materi secara lisan"
+      ]
+    },
+    "read_write_learning": {
+      "expert_id": "pakar_3",
+      "kutipan": "Dimyati dan Mudjiono (2013) menjelaskan bahwa belajar melalui membaca dan menulis membantu siswa mengolah informasi secara kognitif dan sistematis.",
+      "kesimpulan_penelitian": "Berdasarkan teori belajar Dimyati & Mudjiono (2013), aktivitas membaca dan menulis berperan penting dalam pembentukan pemahaman konseptual.",
+      "instruksi_spesifik": [
+        "Membuat rangkuman tertulis",
+        "Membaca buku ajar dan modul",
+        "Menulis ulang materi dengan bahasa sendiri"
+      ]
+    },
+    "kinesthetic_learning": {
+      "expert_id": "pakar_4",
+      "kutipan": "Sugihartono et al. (2015) menjelaskan bahwa pembelajaran aktif melalui pengalaman langsung dan aktivitas fisik dapat meningkatkan pemahaman siswa, khususnya pada materi yang bersifat aplikatif.",
+      "kesimpulan_penelitian": "Penelitian Sugihartono et al. (2015) menegaskan bahwa keterlibatan fisik dan praktik langsung berkontribusi terhadap peningkatan hasil belajar.",
+      "instruksi_spesifik": [
+        "Melakukan praktik atau simulasi",
+        "Belajar melalui eksperimen",
+        "Menggunakan studi kasus nyata"
+      ]
+    },
+    "deep_worker": {
+      "expert_id": "pakar_2",
+      "kutipan": "Hamzah B. Uno (2016) menyatakan bahwa konsentrasi dan pengelolaan perhatian sangat menentukan keberhasilan belajar, terutama pada materi yang membutuhkan pemikiran mendalam.",
+      "kesimpulan_penelitian": "Kesimpulan ini didukung oleh teori motivasi dan konsentrasi belajar Hamzah B. Uno (2016).",
+      "instruksi_spesifik": [
+        "Belajar dalam suasana tenang",
+        "Menghindari distraksi",
+        "Menjadwalkan sesi belajar mendalam"
+      ]
+    },
+    "sprint_learner": {
+      "expert_id": "pakar_2",
+      "kutipan": "Menurut Hamzah B. Uno (2016), pembelajaran yang dibagi dalam sesi singkat namun terfokus dapat membantu menjaga motivasi dan mencegah kelelahan belajar.",
+      "kesimpulan_penelitian": "Pendekatan ini selaras dengan teori pengelolaan beban belajar yang dijelaskan oleh Hamzah B. Uno (2016).",
+      "instruksi_spesifik": [
+        "Belajar dalam waktu singkat dan fokus",
+        "Memberi jeda istirahat",
+        "Membagi materi menjadi bagian kecil"
+      ]
+    },
+    "global_learner": {
+      "expert_id": "pakar_3",
+      "kutipan": "Dimyati dan Mudjiono (2013) menjelaskan bahwa pemahaman konsep akan lebih baik jika peserta didik terlebih dahulu memahami gambaran umum materi.",
+      "kesimpulan_penelitian": "Kesimpulan ini didukung oleh teori pembelajaran bermakna dalam kajian Dimyati & Mudjiono (2013).",
+      "instruksi_spesifik": [
+        "Mempelajari tujuan pembelajaran di awal",
+        "Melihat struktur materi secara keseluruhan",
+        "Mengaitkan materi dengan konteks luas"
+      ]
+    },
+    "sequential_learner": {
+      "expert_id": "pakar_3",
+      "kutipan": "Dimyati dan Mudjiono (2013) menyatakan bahwa pembelajaran yang sistematis dan bertahap membantu siswa membangun pemahaman secara konsisten.",
+      "kesimpulan_penelitian": "Pendekatan bertahap ini merupakan bagian dari strategi pembelajaran efektif menurut Dimyati & Mudjiono (2013).",
+      "instruksi_spesifik": [
+        "Mengikuti urutan materi secara runtut",
+        "Menggunakan daftar cek progres",
+        "Memastikan pemahaman sebelum lanjut"
+      ]
+    },
+    "social_learner": {
+      "expert_id": "pakar_3",
+      "kutipan": "Dimyati dan Mudjiono (2013) menekankan pentingnya interaksi sosial dalam belajar, di mana diskusi dan kerja sama kelompok dapat memperkaya perspektif siswa.",
+      "kesimpulan_penelitian": "Pembelajaran kolaboratif terbukti meningkatkan keterampilan komunikasi dan pemahaman materi melalui pertukaran gagasan.",
+      "instruksi_spesifik": [
+        "Membentuk kelompok belajar",
+        "Mengajar teman sebaya (Peer Teaching)",
+        "Aktif bertanya dan berdiskusi"
+      ]
+    },
+    "solitary_learner": {
+      "expert_id": "pakar_2",
+      "kutipan": "Hamzah B. Uno (2016) menyoroti aspek kemandirian belajar (Self-Regulated Learning), di mana siswa mampu mengatur strategi, waktu, dan evaluasi belajarnya sendiri secara independen.",
+      "kesimpulan_penelitian": "Kemandirian belajar berkorelasi positif dengan prestasi akademik bagi siswa yang memiliki motivasi internal kuat.",
+      "instruksi_spesifik": [
+        "Refleksi diri setelah belajar",
+        "Menetapkan target pribadi (Personal Goals)",
+        "Belajar mandiri di ruang privat"
+      ]
+    },
+    "kritik_learning_styles": {
+      "expert_id": "pakar_5",
+      "kutipan": "Daniel Willingham menegaskan bahwa meskipun siswa memiliki preferensi belajar, tidak ada bukti ilmiah kuat bahwa menyesuaikan pengajaran dengan gaya belajar visual/auditori meningkatkan hasil tes secara signifikan. Yang terpenting adalah 'Meaning' (makna) dari materi tersebut.",
+      "kesimpulan_penelitian": "Penyeimbang: Jangan terpaku kaku pada gaya belajar. Fokuslah pada substansi materi. Jika materi visual (seperti peta buta), semua orang harus belajar secara visual, bukan hanya tipe visual.",
+      "instruksi_spesifik": [
+        "Gunakan metode yang sesuai dengan KONTEN, bukan hanya preferensi diri",
+        "Kombinasikan semua modalitas (Multimodal) untuk retensi terbaik",
+        "Fokus pada pemahaman makna, bukan hanya bentuk penyajian"
+      ]
+    }
+  }
+}
